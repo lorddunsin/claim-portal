@@ -39,7 +39,7 @@ function Login() {
           className='bg-blue-700 hover:bg-blue-800 px-5 rounded-lg font-semibold'
           type='submit'
         >
-          Login
+          View Claim
         </button>
       </form>
        {errors.claimID && <span className='bg-red-500 w-[60%] ml-15 mt-5 py-2 text-sm'>{errors.claimID.message}</span>}
