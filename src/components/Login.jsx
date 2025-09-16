@@ -11,7 +11,7 @@ function Login() {
   const claim = data.find(item => item.claimID === formData.claimID);
 
   if (claim) {
-    alert('login successful');
+    // alert('login successful');
     navigate(`/home/${formData.claimID}`); 
   } else {
     alert('invalid claim ID');
